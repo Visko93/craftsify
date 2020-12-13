@@ -10,10 +10,6 @@ import Profile from "./components/pages/Profile";
 import UserSettings from "./components/pages/UserSettings";
 
 function Routes({ courses }) {
-  const [user, setUser] = React.useState({
-    userName: "",
-    isLogged: false,
-  });
 
   return (
     <>
